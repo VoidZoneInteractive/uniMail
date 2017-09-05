@@ -19,7 +19,7 @@ $(document).ready(function() {
 		// var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "mail-pm.php", //Change
 			data: data,
 			cache: false,
 			contentType: false,
@@ -28,7 +28,7 @@ $(document).ready(function() {
 			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
-				th.trigger("reset");
+				// th.trigger("reset");
 			}, 1000);
 		});
 		return false;
